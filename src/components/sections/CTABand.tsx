@@ -20,7 +20,7 @@ export function CTABand({
       <div className="container-tight">
         <FadeIn>
           <div className="relative overflow-hidden rounded-[2rem] md:rounded-[2.5rem] bg-espresso px-7 py-12 md:p-14 text-center shadow-warm-lg">
-            <div className="absolute inset-0 opacity-70" style={{ background: "radial-gradient(circle at 20% 20%, rgba(58,143,191,0.18) 0%, transparent 45%), radial-gradient(circle at 80% 80%, rgba(30,111,168,0.22) 0%, transparent 50%)" }} aria-hidden />
+            <div className="absolute inset-0 opacity-70" style={{ background: "radial-gradient(circle at 20% 20%, rgba(217,143,43,0.18) 0%, transparent 45%), radial-gradient(circle at 80% 80%, rgba(138,62,26,0.22) 0%, transparent 50%)" }} aria-hidden />
             <div className="relative">
               <h2 className="font-heading font-extrabold text-cream text-2xl md:text-4xl leading-tight">{title}</h2>
               <p className="mt-4 text-cream/80 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">{description}</p>

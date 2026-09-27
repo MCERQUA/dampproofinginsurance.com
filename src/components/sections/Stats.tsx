@@ -7,7 +7,7 @@ import { FadeIn } from "@/components/animations/FadeIn";
 export function Stats() {
   return (
     <section className="relative overflow-hidden bg-espresso text-cream py-16 md:py-20">
-      <div className="absolute inset-0 opacity-60" style={{ background: "radial-gradient(circle at 18% 30%, rgba(58,143,191,0.18) 0%, transparent 45%), radial-gradient(circle at 82% 70%, rgba(30,111,168,0.22) 0%, transparent 50%)" }} aria-hidden />
+      <div className="absolute inset-0 opacity-60" style={{ background: "radial-gradient(circle at 18% 30%, rgba(217,143,43,0.18) 0%, transparent 45%), radial-gradient(circle at 82% 70%, rgba(138,62,26,0.22) 0%, transparent 50%)" }} aria-hidden />
       <div className="absolute top-0 inset-x-0 h-px horizon-band" aria-hidden />
 
       <div className="container-wide relative">

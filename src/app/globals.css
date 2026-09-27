@@ -3,25 +3,25 @@
 @tailwind utilities;
 
 /* ============================================================
-   DAMPPROOFING INSURANCE — "Blue & Stone Gray" Design System
-   Light · corporate · clean · foundation & water motif
-   (token NAMES inherited; VALUES remapped: clay=steel blue,
-   sage=slate stone gray, gold=water blue accent)
+   DAMPPROOFING INSURANCE — warm terracotta, amber & stone
+   Light · corporate · clean · foundation motif
+   (token NAMES inherited; VALUES: clay=terracotta,
+   sage=warm stone, gold=amber accent)
    ============================================================ */
 
 @layer base {
   :root {
-    --bg-cream: #F6F8FA;
-    --bg-sand: #EDF1F5;
+    --bg-cream: #FBF8F3;
+    --bg-sand: #F3EEE6;
     --bg-white: #FFFFFF;
-    --clay: #1E6FA8;
-    --clay-dark: #155A8C;
-    --sage: #5C6B7A;
-    --gold: #3A8FBF;
-    --espresso: #1A2530;
-    --cocoa: #2E3D4C;
-    --mocha: #546070;
-    --adobe: #D0D9E2;
+    --clay: #8A3E1A;
+    --clay-dark: #6B2F13;
+    --sage: #57534E;
+    --gold: #D98F2B;
+    --espresso: #1C1410;
+    --cocoa: #2E241E;
+    --mocha: #6B625A;
+    --adobe: #E0D6CA;
     --radius: 1rem;
   }
 
@@ -49,7 +49,7 @@
   }
 
   ::selection {
-    background: rgba(30, 111, 168, 0.16);
+    background: rgba(138, 62, 26, 0.16);
     color: var(--espresso);
   }
 }
@@ -99,7 +99,7 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #1E6FA8 0%, #2E87C0 24%, #5C6B7A 58%, #3A8FBF 100%);
+    background: linear-gradient(90deg, #8A3E1A 0%, #B4552D 24%, #57534E 58%, #D98F2B 100%);
   }
   .pill { @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-heading font-semibold uppercase tracking-wider; }
   .pill-clay { @apply pill bg-clay/10 text-clay border border-clay/20; }
@@ -114,41 +114,41 @@
   .bg-sonoran {
     background-color: var(--bg-cream);
     background-image:
-      radial-gradient(circle at 15% 15%, rgba(30, 111, 168, 0.12) 0%, transparent 35%),
-      radial-gradient(circle at 85% 75%, rgba(92, 107, 122, 0.07) 0%, transparent 40%);
+      radial-gradient(circle at 15% 15%, rgba(138, 62, 26, 0.12) 0%, transparent 35%),
+      radial-gradient(circle at 85% 75%, rgba(87, 83, 78, 0.07) 0%, transparent 40%);
   }
   .bg-sonoran-sand {
     background-color: var(--bg-sand);
     background-image:
-      radial-gradient(circle at 70% 20%, rgba(30, 111, 168, 0.08) 0%, transparent 45%),
-      radial-gradient(circle at 20% 80%, rgba(58, 143, 191, 0.08) 0%, transparent 40%);
+      radial-gradient(circle at 70% 20%, rgba(138, 62, 26, 0.08) 0%, transparent 45%),
+      radial-gradient(circle at 20% 80%, rgba(217, 143, 43, 0.08) 0%, transparent 40%);
   }
   .bg-warm-radial {
     background:
-      radial-gradient(ellipse at top, rgba(30, 111, 168, 0.10) 0%, transparent 55%),
-      radial-gradient(ellipse at bottom right, rgba(92, 107, 122, 0.07) 0%, transparent 50%),
+      radial-gradient(ellipse at top, rgba(138, 62, 26, 0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at bottom right, rgba(87, 83, 78, 0.07) 0%, transparent 50%),
       var(--bg-cream);
   }
   /* Horizon band — layered foundation/water strata */
   .horizon-band {
     background: linear-gradient(180deg,
-      #1E6FA8 0% 18%, #2E87C0 18% 34%, #3A8FBF 34% 48%,
-      #5C6B7A 48% 62%, #47566A 62% 78%, #1E6FA8 78% 100%);
+      #8A3E1A 0% 18%, #B4552D 18% 34%, #D98F2B 34% 48%,
+      #57534E 48% 62%, #44403C 62% 78%, #8A3E1A 78% 100%);
   }
   .grain {
     background-image:
-      repeating-linear-gradient(92deg, rgba(30,111,168,0.04) 0px, rgba(30,111,168,0.04) 10px, rgba(255,255,255,0.025) 10px, rgba(255,255,255,0.025) 11px),
+      repeating-linear-gradient(92deg, rgba(138,62,26,0.04) 0px, rgba(138,62,26,0.04) 10px, rgba(255,255,255,0.025) 10px, rgba(255,255,255,0.025) 11px),
       repeating-linear-gradient(88deg, rgba(0,0,0,0.0) 0px, rgba(0,0,0,0.0) 23px, rgba(0,0,0,0.03) 23px, rgba(0,0,0,0.03) 24px);
   }
   .dotted-warm {
-    background-image: radial-gradient(circle, rgba(30, 111, 168, 0.08) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(138, 62, 26, 0.08) 1px, transparent 1px);
     background-size: 24px 24px;
   }
   .arch-divider { position: relative; height: 3rem; width: 100%; }
   .arch-divider::after {
     content: ""; position: absolute; inset: 0; margin: auto;
     width: 10rem; height: 1.4rem;
-    background: linear-gradient(90deg, #1E6FA8 0% 18%, #2E87C0 18% 40%, #3A8FBF 40% 62%, #5C6B7A 62% 82%, #1E6FA8 82% 100%);
+    background: linear-gradient(90deg, #8A3E1A 0% 18%, #B4552D 18% 40%, #D98F2B 40% 62%, #57534E 62% 82%, #8A3E1A 82% 100%);
     border-radius: 0.5rem; opacity: 0.92;
   }
 
@@ -161,7 +161,7 @@
   .prose-warm li::before {
     content: ""; position: absolute; left: 0; top: 0.55em;
     width: 1.1rem; height: 0.5rem;
-    background: linear-gradient(90deg, #1E6FA8 0% 35%, #3A8FBF 35% 70%, #5C6B7A 70% 100%);
+    background: linear-gradient(90deg, #8A3E1A 0% 35%, #D98F2B 35% 70%, #57534E 70% 100%);
     border-radius: 0.15rem 0.5rem 0.15rem 0.5rem; opacity: 0.9;
   }
   .prose-warm strong { @apply text-espresso font-semibold; }
