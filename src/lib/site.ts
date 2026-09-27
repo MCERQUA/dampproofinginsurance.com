@@ -159,8 +159,3 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  { quote: "We got hit with a completed-operations claim two years after a basement waterproofing job — the homeowner claimed our drain tile failed and caused mold. Our old GL policy had a pollution exclusion that the carrier used to deny the claim. Dampproofing Insurance placed a real contractor pollution liability policy that covered us. The claim was settled and we didn't pay out of pocket.", name: "Marcus D.", role: "Owner", location: "Ohio" },
-  { quote: "As a crawl space encapsulation company, we were having trouble getting pollution liability because of the solvent-based vapor barriers we use. Most carriers wouldn't touch us or quoted crazy premiums. These guys understood exactly what we do, placed an A-rated CPL policy, and the premium was reasonable. Finally feel like we're actually covered.", name: "Teresa W.", role: "Operations Manager", location: "North Carolina" },
-  { quote: "Our spray rig and injection equipment got stolen off a job site — over $40,000 in equipment gone. Our tools and equipment coverage paid out fast with no argument about whether the equipment was 'scheduled' properly. They helped us get back on the road in two weeks. That's the kind of coverage you don't appreciate until you need it.", name: "Kevin R.", role: "Waterproofing Contractor", location: "Texas" },
-] as const;
